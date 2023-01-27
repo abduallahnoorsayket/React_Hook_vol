@@ -1,7 +1,7 @@
 import "./App.css";
 import HookCounterFive from "./components/UseEffect/HookCounterFive";
 import ClassCounter from "./components/UseState/ClassCounter";
-import ClassCounterTwo from "./components/UseState/ClassCounterTwo";
+import ClassCounterTwo from "./components/UseEffect/ClassCounterTwo";
 import HookCounter from "./components/UseState/HookCounter";
 import HookCounterFour from "./components/UseState/HookCounterFour";
 import HookCounterThree from "./components/UseState/HookCounterThree";

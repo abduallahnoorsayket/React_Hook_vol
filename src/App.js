@@ -1,14 +1,22 @@
 import "./App.css";
-import ClassCounter from "./components/HooksT1/ClassCounter";
-import ClassCounterTwo from "./components/HooksT1/ClassCounterTwo";
-import HookCounter from "./components/HooksT1/HookCounter";
-import HookCounterThree from "./components/HooksT1/HookCounterThree";
-import HookCounterTwo from "./components/HooksT1/HookCounterTwo";
+import HookCounterFive from "./components/UseEffect/HookCounterFive";
+import ClassCounter from "./components/UseState/ClassCounter";
+import ClassCounterTwo from "./components/UseState/ClassCounterTwo";
+import HookCounter from "./components/UseState/HookCounter";
+import HookCounterFour from "./components/UseState/HookCounterFour";
+import HookCounterThree from "./components/UseState/HookCounterThree";
+import HookCounterTwo from "./components/UseState/HookCounterTwo";
 
 function App() {
   return (
     <div className="App">
-      <HookCounterThree />
+      <br></br>
+      <br></br>
+      <ClassCounterTwo />
+      <br></br>
+      <HookCounterFive />
+      {/* <HookCounterFour /> */}
+      {/* <HookCounterThree /> */}
       {/* <HookCounterTwo /> */}
       {/* <ClassCounterTwo/> */}
       {/* <ClassCounter /> */}

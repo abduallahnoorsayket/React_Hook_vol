@@ -13,10 +13,14 @@ import MouseContainer from "./components/UseEffect/MouseContainer";
 import IntervalClassCounter from "./components/UseEffect/IntervalClassCounter";
 import IntervalHookCounter from "./components/UseEffect/IntervalHookCounter";
 import DataFetching from "./components/UseEffect/DataFetching";
-import ComponentC from "./components/UseContext/ComponentC";
+// import ComponentC from "./components/UseContext/ComponentC";
 import CounterOne from "./components/UseReducer/CounterOne";
 import CounterTwo from "./components/UseReducer/CounterTwo";
 import CounterThree from "./components/UseReducer/CounterThree";
+import ComponentA from "./components/UseReducer/ComponentA";
+import ComponentD from "./components/UseReducer/ComponentD";
+import ComponentB from "./components/UseReducer/ComponentB";
+import ComponentC from "./components/UseReducer/ComponentC";
 
 export const UserContext = React.createContext();
 export const channelContext = React.createContext();
@@ -25,7 +29,10 @@ function App() {
   return (
     <div className="App">
       <br></br>
-      <CounterThree />
+      <ComponentA />
+      <ComponentB />
+      <ComponentC />
+      {/* <CounterThree /> */}
       {/* <CounterTwo /> */}
       {/* <CounterOne /> */}
       {/* <UserContext.Provider value={"Abdullah"}>

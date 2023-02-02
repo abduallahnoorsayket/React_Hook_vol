@@ -14,6 +14,9 @@ import IntervalClassCounter from "./components/UseEffect/IntervalClassCounter";
 import IntervalHookCounter from "./components/UseEffect/IntervalHookCounter";
 import DataFetching from "./components/UseEffect/DataFetching";
 import ComponentC from "./components/UseContext/ComponentC";
+import CounterOne from "./components/UseReducer/CounterOne";
+import CounterTwo from "./components/UseReducer/CounterTwo";
+import CounterThree from "./components/UseReducer/CounterThree";
 
 export const UserContext = React.createContext();
 export const channelContext = React.createContext();
@@ -22,11 +25,14 @@ function App() {
   return (
     <div className="App">
       <br></br>
-      <UserContext.Provider value={"Abdullah"}>
+      <CounterThree />
+      {/* <CounterTwo /> */}
+      {/* <CounterOne /> */}
+      {/* <UserContext.Provider value={"Abdullah"}>
         <channelContext.Provider value={"SayketChannel"}>
           <ComponentC />
         </channelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
       {/* <DataFetching /> */}
       {/* <ClassMouse /> */}
       {/* <IntervalClassCounter />

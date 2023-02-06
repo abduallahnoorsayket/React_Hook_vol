@@ -23,6 +23,9 @@ import ComponentB from "./components/UseReducer/ComponentB";
 import ComponentC from "./components/UseReducer/ComponentC";
 import DataFetchingOne from "./components/UseReducer/DataFetchingOne";
 import DataFetchingTwo from "./components/UseReducer/DataFetchingTwo";
+import ParentComponent from "./components/UseCallback/ParentComponent";
+import Counter from "./components/UseMemo/Counter";
+import FocusInput from "./components/UseRef/FocusInput";
 
 // export const UserContext = React.createContext();
 // export const channelContext = React.createContext();
@@ -43,11 +46,14 @@ const reducer = (state, action) => {
 };
 
 function App() {
-  const [count, dispatch] = useReducer(reducer, initialState);
+  // const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div>
+      <FocusInput />
+      {/* <Counter /> */}
+      {/* <ParentComponent /> */}
       {/* <DataFetchingOne /> */}
-      <DataFetchingTwo />
+      {/* <DataFetchingTwo /> */}
     </div>
     // <CountContext.Provider
     //   value={{ countState: count, countDispatch: dispatch }}

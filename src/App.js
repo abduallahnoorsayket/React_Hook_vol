@@ -14,8 +14,8 @@ import IntervalClassCounter from "./components/UseEffect/IntervalClassCounter";
 import IntervalHookCounter from "./components/UseEffect/IntervalHookCounter";
 import DataFetching from "./components/UseEffect/DataFetching";
 // import ComponentC from "./components/UseContext/ComponentC";
-import CounterOne from "./components/UseReducer/CounterOne";
-import CounterTwo from "./components/UseReducer/CounterTwo";
+// import CounterOne from "./components/UseReducer/CounterOne";
+// import CounterTwo from "./components/UseReducer/CounterTwo";
 import CounterThree from "./components/UseReducer/CounterThree";
 import ComponentA from "./components/UseReducer/ComponentA";
 import ComponentD from "./components/UseReducer/ComponentD";
@@ -30,7 +30,8 @@ import ClassTimer from "./components/UseRef/ClassTimer";
 import HookTimer from "./components/UseRef/HookTimer";
 import DocTitleOne from "./components/CustomHook/DocTitleOne";
 import DocTitleTwo from "./components/CustomHook/DcoTitleTwo";
-
+import CounterOne from "./components/CustomHook/CounterOne";
+import CounterTwo from "./components/CustomHook/CounterTwo";
 // export const UserContext = React.createContext();
 // export const channelContext = React.createContext();
 export const CountContext = React.createContext();
@@ -53,8 +54,10 @@ function App() {
   // const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div className="App">
-      <DocTitleOne />
-      <DocTitleTwo />
+      <CounterOne />
+      <CounterTwo />
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
       {/* <ClassTimer />
       <HookTimer /> */}
       {/* <FocusInput /> */}

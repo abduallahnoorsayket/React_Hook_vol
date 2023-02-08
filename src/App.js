@@ -28,6 +28,8 @@ import Counter from "./components/UseMemo/Counter";
 import FocusInput from "./components/UseRef/FocusInput";
 import ClassTimer from "./components/UseRef/ClassTimer";
 import HookTimer from "./components/UseRef/HookTimer";
+import DocTitleOne from "./components/CustomHook/DocTitleOne";
+import DocTitleTwo from "./components/CustomHook/DcoTitleTwo";
 
 // export const UserContext = React.createContext();
 // export const channelContext = React.createContext();
@@ -50,9 +52,11 @@ const reducer = (state, action) => {
 function App() {
   // const [count, dispatch] = useReducer(reducer, initialState);
   return (
-    <div>
-      <ClassTimer />
-      <HookTimer />
+    <div className="App">
+      <DocTitleOne />
+      <DocTitleTwo />
+      {/* <ClassTimer />
+      <HookTimer /> */}
       {/* <FocusInput /> */}
       {/* <Counter /> */}
       {/* <ParentComponent /> */}

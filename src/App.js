@@ -32,6 +32,7 @@ import DocTitleOne from "./components/CustomHook/DocTitleOne";
 import DocTitleTwo from "./components/CustomHook/DcoTitleTwo";
 import CounterOne from "./components/CustomHook/CounterOne";
 import CounterTwo from "./components/CustomHook/CounterTwo";
+import UserForm from "./components/CustomHook/UserForm";
 // export const UserContext = React.createContext();
 // export const channelContext = React.createContext();
 export const CountContext = React.createContext();
@@ -54,8 +55,9 @@ function App() {
   // const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div className="App">
-      <CounterOne />
-      <CounterTwo />
+      <UserForm />
+      {/* <CounterOne />
+      <CounterTwo /> */}
       {/* <DocTitleOne />
       <DocTitleTwo /> */}
       {/* <ClassTimer />
